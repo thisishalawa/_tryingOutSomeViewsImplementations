@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/animationsFragment">
+
+    <fragment
+        android:id="@+id/spinnerFragment"
+        android:name="master.trying_out.some_views.spinner.SpinnerFragment"
+        android:label="fragment_intro"
+        tools:layout="@layout/fragment_spinner" />
+    <fragment
+        android:id="@+id/collapsingFragment"
+        android:name="master.trying_out.some_views.collapsingtoolbar.CollapsingFragment"
+        android:label="fragment_movies"
+        tools:layout="@layout/fragment_collapsing" />
+    <fragment
+        android:id="@+id/animationsFragment"
+        android:name="master.trying_out.some_views.animations.AnimationsFragment"
+        android:label="fragment_animations"
+        tools:layout="@layout/fragment_animations" />
+</navigation>

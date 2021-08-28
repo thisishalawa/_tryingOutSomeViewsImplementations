@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/matchMatch_"
+    tools:context=".spinner.SpinnerFragment">
+
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/matchWrap_"
+        android:id="@+id/button1"
+        android:layout_margin="@dimen/_5sdp"
+        android:padding="@dimen/_5sdp"
+        android:text="@string/change_language" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        style="@style/matchWrap_"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@android:drawable/editbox_background"
+        android:padding="@dimen/_5sdp"
+        android:spinnerMode="dialog" />
+
+
+</LinearLayout>
